@@ -6,6 +6,10 @@
   background-color: rgba(8, 184, 225, 0.4);
 }
 
+#brief-container p {
+  font-style: italic;
+}
+
 p {
   font-size: 22px;
 }

@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="icon.png">
 
   <title>Mallzee | User Research Task</title>
 </head>
@@ -21,8 +22,9 @@
   </div>
 
   <div class="container mt-5">
+    <img class="mx-auto d-block img-fluid mb-5" src="surveys.png" alt="">
     <h1 class="text-center">Brief</h1>
-    <div class="container" id="brief-container">
+    <div class="container p-5" id="brief-container">
       <p>Imagine that our team wants to find out why a subset of our users are not engaging with a particular feature in the app.</p>
 
       <p>We are planning to do an email survey, which has a combination of yes/no questions, some ‘agree-disagree’ questions on a scale and some ‘open-ended’ paragraph questions.</p>
@@ -34,7 +36,8 @@
   </div>
 
   <div class="container mt-5">
-    <h1 class="text-center">Baby Steps</h1>
+    <img class="mx-auto d-block img-fluid mb-5" src="hands.jpg" alt="">
+    <h1 class="text-center pb-3">Baby Steps</h1>
     <p>Before rushing into putting together the survey, we've got to ask ourselves a few questions first.</p>
     <ul>
       <li>What feature do we want to ask about?</li>
@@ -60,12 +63,17 @@
 
     <p>From first-hand experience, most people will see surveys as an imposition. Get them in and out as quickly and efficiently as possible, and give them an incentive to be as honest and constructive as possible.</p>
 
-    <p>Incentives can exponentially increase the number of poeple who participate in surveys, meaning that you can be more confident in your results with a larger focus group. Common incentives are entries into sweepstakes draws, so potentially the chance to win a Mallzee shopping spree? <strong>I'd fill in a 5 minute survey.</strong></p>
+    <p><strong>Keep them rare, short, useful and give people an incentive.</strong></p>
+
+    <p>Incentives can exponentially increase the number of poeple who participate in surveys, meaning that you can be more confident in your results with a larger focus group. Also, usually the only people who will willingly complete a survey are people with either extremely positive, or extremely negative views on the product, which skews results. This helps to keep things anonymous, as neutral as possible, and constructive.</p>
+
+    <p>Common incentives are entries into sweepstakes draws, so potentially the chance to win a Mallzee shopping spree? <strong>I'd fill in a 5 minute survey.</strong></p>
 
   </div>
 
   <div class="container mt-5">
-    <h1 class="text-center">The Survey</h1>
+    <img class="mx-auto d-block img-fluid mb-3" src="focus.png" alt="">
+    <h1 class="text-center pb-3">The Survey</h1>
     <p>Our primary aims:</p>
     <ul>
       <li>Short completion time (< 5 mins).</li>
@@ -75,21 +83,60 @@
     <p>Although in this scenario we don't have a specific example of a feature, we can build out some example questions which display good practice:</p>
 
     <ul>
-      <li>Have you ever used this feature while shopping on Mallzee?</li>
-      <li>If not - why? (Allows user to explain in more detail.)</li>
-      <li></li>
-      <li></li>
+      <li>Have you ever used this feature while shopping on Mallzee? (Yes/No)</li>
+      <li>If not - why? (Paragraph)</li>
+      <li>What would help you to use this feature? (Paragraph)</li>
+      <li>How likely are you to use this feature in your next shop, now that you know it exists? (Sliding Scale)</li>
+      <li>How useful do you personally find this feature while shopping? (Sliding Scale)</li>
+      <li>Does this feature make your shopping experience better? (Yes/No)</li>
     </ul>
 
-    <p>There can be contingencies in place to discard unusable entries. For example, if a survey is filled in way under the average time the likelihood is that the survey has been filled in quickly.</p>
+    <p>Obviously these are example questions - but by covering more bases with different question types you're more likely to get a clearer picture about problems with that feature.</p>
+
+    <img class="mx-auto d-block img-fluid mb-3" src="tree.png" width="50%">
+
+    <p>It could also be good to use <strong>modular surveys</strong>, which change the questions it asks based on the answers to the previous questions. This way your data tree covers a lot more ground, and potentially you can get feedback from both users familiar and unfamiliar with the particular feature in question.</p>
+
+    <p>There can be contingencies in place to discard unusable entries. For example, if a survey is filled in way under the average time the likelihood is that the survey has been filled in too quickly and likely contains <strong>inaccurate or sub-standard information.</strong></p>
+
+    <img class="mx-auto d-block img-fluid mb-3" src="reading.png">
+
+    <p>As for the UX side of surveys - letting people know what they're getting themselves into before they begin. Blogs such as Medium and Adobe now give <strong>approximated reading times</strong> for articles, as well as a subtle <strong>progress metre</strong> showing how long they have to go. Transparency and clear communication with the user is likely to lead to positive feelings about the Mallzee brand, as it shows we're respectful and appreciative of their time.</p>
+
+    <p><strong>They also might be more inclined to fill in more surveys at a later date.</strong></p>
+
   </div>
 
   <div class="container mt-5">
-    <h1 class="text-center">The Results</h1>
+    <img class="mx-auto d-block img-fluid mb-3" src="piechart.jpg">
+    <h1 class="text-center pb-3">The Results</h1>
     <p>Once the survey is complete, we need to relay information back to: both <strong>the design/product team</strong> and <strong>the wider business</strong>.</p>
 
-    <p>For the wider business, a short breakdown could be made available on PDF or internal messageboards. These PDFs could be shared on Slack as well as an attachment to a madd internal email.</p>
-    <p>Often the more detailed results of these surveys will only be relevant to the design/product and development teams, so being able to give a short, concise breakdown to the rest of the business is key to keeping everyone in the loop with the changes to the product. <strong>You never know when a particular change may affect somebody else's job.</strong></p>
+    <p>To relay to the design/product team:</p>
+
+    <p>For simple yes/no questions - pie/bar charts to display the feedback. Simple, clear.</p>
+    <p>For sliding scale questions - pie/bar charts, and straightforward percentages. (e.g 90% of users like X colour scheme etc.)</p>
+    <p>For paragraph questions - reading through every one and making observations on commonalities that come up. Often the team won't have time to read every single insight from users, so being able to notice patterns and curate these to communicate effectively to the team is optimal.</p>
+
+    <p>Distilling these into key insights is likely to be the best method. Collate the data, look at what you aimed to achieve at the beginning, and compare your results to your initial questions. Draw up rudimentary graphics/infographics and present them to the design/product team, along with highlights from your findings.</p>
+
+    <img class="mx-auto d-block img-fluid mb-3" src="infographic.jpg">
+
+    <p>Often the more detailed results of these surveys will only be relevant to the a few teams, so being able to give a short, concise breakdown to the rest of the business is key to keeping the wider business in the loop with the changes to the product. <strong>A particular change may affect somebody else's job.</strong></p>
+
+    <p>A short breakdown could be made available on PDF or internal messageboards. These PDFs could be shared on Slack as well as on an attachment to a mass internal email. A quick rundown could also be useful during a morning stand-up.</p>
+
+  </div>
+
+  <div class="container mt-5">
+
+    <h1 class="text-center pb-3">Next Steps</h1>
+    <img class="mx-auto d-block img-fluid mb-3" src="party.gif">
+    <p><strong>PARTY TI-</strong> just kidding.</p>
+    <p>Take what you've learnt, make some changes and build the best version of the product you possibly can!</p>
+    <p class="mb-5">Hopefully you've enjoyed reading this case study/task analysis - <strong>sorry for my terrible taste in stock photography!</strong></p>
+
+    <img class="mx-auto d-block img-fluid mb-3" src="thumbs.jpg">
   </div>
 
   <!-- Optional JavaScript -->
